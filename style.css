@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Lily+Script+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.container{
+    background: #FFF;
+}
+
+header img{
+    width: 100%;
+    height: 307px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.artigos{
+    width: 1030px;
+    height: 398;
+    margin-bottom:105px ;
+    margin-top: 105px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+}
+
+.artigos img{
+    width: 500px; 
+    height: 398px;
+    border-radius: 15px;   
+}
+
+.artigos h2{
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 21px;
+}
+
+.artigos p{
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 18px;
+    
+}
+
+.textoartigo{
+    margin-left: 30px;
+}
+
