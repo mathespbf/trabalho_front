@@ -15,23 +15,26 @@ li, a{
 }
 
 body{
+    max-width: 1728px;
     margin: 0 auto;
     height: 100vh;
+    display: flex;
 }
 
 .container{
     height: 100vh;
-    margin: 0 auto;
-    width: 800px;
+    width: 60%;
     display: flex;
     flex-direction: column;
     background-color: aqua;
 }
 
 .menu{
+    height: 70px;
     display: flex;
     justify-content: space-between;
-    margin: 10px 0 0 0;
+    align-items: center;
+    background-color: blue;
 }
 
 .links{
@@ -49,5 +52,29 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+.area_cadastro{
+    background-color: blueviolet;
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login{
+    background-color: white;
+}
+
+.login input{
+    margin-top: 20px;
+}
+
+.cadastro{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
