@@ -44,6 +44,7 @@ body{
 
 .link{
     margin: 0 10px 0 0;
+    
 }
 
 .cont_central{
@@ -63,18 +64,62 @@ body{
     flex-direction: column;
 }
 
+
 .login{
-    background-color: white;
+    height: 70px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 20px;
 }
 
 .login input{
-    margin-top: 20px;
+    width: 35%;
+    border: none;
+    border-radius: 25px;
+    padding: 9px;
+    
 }
 
 .cadastro{
     height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;
+}
+
+.cadastro form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nomecadastro{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.inputnome{
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    padding: 9px;
+    margin-bottom: 5px;
+}
+
+.inputcadastro{
+    width: 67%;
+    border: none;
+    border-radius: 25px;
+    padding: 9px;
+    margin: 5px;
 }
