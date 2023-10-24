@@ -5,7 +5,19 @@
 
 }
 
-li, a{
+:root {
+    --cor01: #FBF2D3;
+    --cor02: #5CD3E7;
+    --corlogin: #F3E868;
+    --corlogin2: #00000027;
+    --corfont: #3086C2;
+    --corbtn: #3085C5;
+
+    --font01: 'inter';
+}
+
+li,
+a {
     margin: 0;
     padding: 0;
     text-indent: 0;
@@ -14,40 +26,52 @@ li, a{
     color: black;
 }
 
-body{
+body {
     max-width: 1728px;
     margin: 0 auto;
     height: 100vh;
     display: flex;
+    background-color: var(--cor01);
+    font-family: var(--font01);
 }
 
-.container{
+.container {
     height: 100vh;
     width: 60%;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-color: var(--cor01);
 }
 
-.menu{
+.logo {
+    width: 60px;
+    margin-left: 20px;
+}
+
+.menu {
     height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: blue;
+    background-color: var(--cor01);
+    margin-top: 10px;
 }
 
-.links{
+.links {
     display: flex;
-    
+
 }
 
-.link{
-    margin: 0 10px 0 0;
-    
+.link {
+    margin: 0 30px 0 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
 }
 
-.cont_central{
+.cont_central {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -56,8 +80,32 @@ body{
     text-align: center;
 }
 
-.area_cadastro{
-    background-color: blueviolet;
+.cont_central h1 {
+    color: #3086C2;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cont_central h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn_sobre {
+    border-radius: 30px;
+    background: #000;
+    color: #FFF;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.area_cadastro {
+    background-color: var(--corlogin);
     height: 100vh;
     width: 40%;
     display: flex;
@@ -65,7 +113,7 @@ body{
 }
 
 
-.login{
+.login {
     height: 70px;
     display: flex;
     flex-wrap: nowrap;
@@ -74,18 +122,28 @@ body{
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    padding-left: 20px;
+    margin: 0 auto;
 }
 
-.login input{
-    width: 35%;
+.login input {
+    width: 60%;
     border: none;
     border-radius: 25px;
     padding: 9px;
-    
+    margin-top: 15px;
+
 }
 
-.cadastro{
+.btn_login {
+    margin-top: 15px;
+    border-radius: 25px;
+    background: var(--corbtn);
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.cadastro {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -93,22 +151,28 @@ body{
     justify-content: center;
 }
 
-.cadastro form{
+.cadastro form {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color: var(--corlogin2);
+    width: 90%;
+    height: 40vh;
+    margin: 0 auto;
+    padding: 30px 0px;
+    border-radius: 25px;
 }
 
-.nomecadastro{
+.nomecadastro {
     width: 70%;
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-.inputnome{
+.inputnome {
     width: 100%;
     border: none;
     border-radius: 25px;
@@ -116,10 +180,20 @@ body{
     margin-bottom: 5px;
 }
 
-.inputcadastro{
+.inputcadastro {
     width: 67%;
     border: none;
     border-radius: 25px;
     padding: 9px;
     margin: 5px;
+}
+
+.btn_cadastro {
+    width: 70%;
+    margin-top: 15px;
+    border-radius: 25px;
+    background: var(--corbtn);
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
 }
