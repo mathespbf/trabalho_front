@@ -110,27 +110,43 @@ body {
     width: 40%;
     display: flex;
     flex-direction: column;
+    padding: 0 10px;
 }
 
 
 .login {
-    height: 70px;
     display: flex;
-    flex-wrap: nowrap;
-    gap: 10px;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
     margin: 0 auto;
 }
 
+.tlogin {
+    color: #3086C2;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 .login input {
-    width: 60%;
+    width: 100%;
     border: none;
     border-radius: 25px;
-    padding: 9px;
+    padding: 9px 40px;
     margin-top: 15px;
+    box-sizing: border-box;
+
+}
+
+.lembremediv{
+    display: flex;
+    font-size:16px;
+    align-items: baseline;
+    white-space:nowrap ;
+    gap: 5px;
 
 }
 
@@ -165,8 +181,15 @@ body {
     border-radius: 25px;
 }
 
+.tcadastro {
+    color: #3086C2;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 .nomecadastro {
-    width: 70%;
+    width: 73%;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -197,3 +220,55 @@ body {
     padding: 8px 10px;
     cursor: pointer;
 }
+
+/*vacinação*/
+
+.areacards{
+    background-color: #5CD3E7;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.areacards h2{
+    margin-left: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardy{
+    width: 300px;
+    height: 150px;
+    margin: 30px;
+    border-radius: 15px;
+    background-color: var(--corlogin);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardy p{
+    margin: 20px;
+}
+
+.cardb{
+    width: 300px;
+    height: 150px;
+    margin: 30px;
+    border-radius: 15px;
+    background-color: var(--corbtn);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardb p{
+    margin: 20px;
+}
+
