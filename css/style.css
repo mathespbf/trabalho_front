@@ -68,6 +68,23 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    position: relative;
+}
+
+.link::after {
+    content: "";
+    width: 0%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #000;
+    position: absolute;
+    bottom: -1px;
+    left: 4px;
+    transition: 0.5s ease-in-out;
+}
+
+.link:hover::after {
+    width: 90%;
 
 }
 
@@ -141,11 +158,11 @@ body {
 
 }
 
-.lembremediv{
+.lembremediv {
     display: flex;
-    font-size:16px;
+    font-size: 16px;
     align-items: baseline;
-    white-space:nowrap ;
+    white-space: nowrap;
     gap: 5px;
 
 }
@@ -223,24 +240,23 @@ body {
 
 /*vacinação*/
 
-.areacards{
-    background-color: #5CD3E7;
+.areacards {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
 }
 
-.areacards h2{
+.areacards h2 {
     margin-left: 20px;
 }
 
-.cards{
+.cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.cardy{
+.cardy {
     width: 300px;
     height: 150px;
     margin: 30px;
@@ -252,11 +268,11 @@ body {
     align-items: center;
 }
 
-.cardy p{
+.cardy p {
     margin: 20px;
 }
 
-.cardb{
+.cardb {
     width: 300px;
     height: 150px;
     margin: 30px;
@@ -268,7 +284,6 @@ body {
     align-items: center;
 }
 
-.cardb p{
+.cardb p {
     margin: 20px;
 }
-
