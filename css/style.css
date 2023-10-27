@@ -121,6 +121,10 @@ body {
     cursor: pointer;
 }
 
+.btn_sobre a{
+    color: #FFF;
+}
+
 .area_cadastro {
     background-color: var(--corlogin);
     height: 100vh;
@@ -238,6 +242,7 @@ body {
     cursor: pointer;
 }
 
+
 /*vacinação*/
 
 .areacards {
@@ -286,4 +291,35 @@ body {
 
 .cardb p {
     margin: 20px;
+}
+
+/*===========VACINAÇÃO================*/
+
+.carrocel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.banners{
+display: flex;
+gap: 20px;
+padding: 20px;
+}
+
+.banner{
+    background-color: #000;
+    width: 200px;
+    height: 350px;
+}
+
+.btn_doacao{
+    margin-top: 15px;
+    border-radius: 25px;
+    background: var(--corbtn);
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
 }
