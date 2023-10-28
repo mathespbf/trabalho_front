@@ -347,3 +347,23 @@ padding: 20px;
     text-align: center;
 
 }
+
+@media(max-width: 450px){
+
+
+    body{
+        display: block;
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        display: block;
+    }
+    .area_cadastro{
+        width: 100%;
+    }
+    .menu{
+        display: none;
+    }
+
+}
