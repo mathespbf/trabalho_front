@@ -353,7 +353,7 @@ padding: 20px;
 
     body{
         display: block;
-        width: 100%;
+        
     }
     .container{
         width: 100%;
@@ -361,7 +361,8 @@ padding: 20px;
         margin: 0 auto;
     }
     .area_cadastro{
-        width: 100%;
+        width: 94%;
+        
     }
     .menu{
         display: none;
