@@ -323,3 +323,27 @@ padding: 20px;
     padding: 8px 20px;
     cursor: pointer;
 }
+
+/*============SOBRE NOS ===========*/
+
+.cont_sobrenos{
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cont_sobrenos h1{
+    font-size: 44px;
+    color: var(--corfont);
+    margin-bottom: 20px;
+
+}
+
+.cont_sobrenos p{
+    font-size: 20px;
+    text-align: center;
+
+}
