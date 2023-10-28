@@ -358,6 +358,7 @@ padding: 20px;
     .container{
         width: 100%;
         display: block;
+        margin: 0 auto;
     }
     .area_cadastro{
         width: 100%;
