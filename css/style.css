@@ -367,5 +367,7 @@ padding: 20px;
     .menu{
         display: none;
     }
-
+    .login input{
+        padding: 13px 60px;
+    }
 }
