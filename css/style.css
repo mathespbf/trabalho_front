@@ -365,8 +365,22 @@ padding: 20px;
         
     }
     .menu{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        white-space: nowrap;
+        gap: 0;
+        margin: 0 auto;
+    }
+
+    .menu li{
+        margin: 10px;
+    }
+
+    .logo{
         display: none;
     }
+
     .login input{
         padding: 13px 60px;
     }
